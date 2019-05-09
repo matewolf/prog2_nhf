@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1557443248 source:c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\main.cpp
+	<iostream>
+	"Combustion.h"
+	"Electric.h"
+	"Trip.h"
+	"TripList.h"
+	"memtrace.h"
+
+1557440519 source:c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\combustion.cpp
+	"Combustion.h"
+	"memtrace.h"
+
+1557440519 c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\combustion.h
+	"Car.h"
+	"memtrace.h"
+
+1557440519 c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\car.h
+	<iostream>
+	"memtrace.h"
+
+1557440519 source:c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\electric.cpp
+	"Electric.h"
+	"memtrace.h"
+
+1557440520 c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\electric.h
+	"Car.h"
+	"memtrace.h"
+
+1557440520 source:c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\trip.cpp
+	"Trip.h"
+	"memtrace.h"
+
+1557440520 c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\trip.h
+	"Car.h"
+	"memtrace.h"
+
+1557440520 source:c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\carlist.cpp
+	"CarList.h"
+	"Car.h"
+	<iostream>
+	"memtrace.h"
+
+1557443198 c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\carlist.h
+	"Car.h"
+	"memtrace.h"
+
+1557440520 source:c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\triplist.cpp
+	"TripList.h"
+	"memtrace.h"
+
+1557443302 c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\triplist.h
+	"Trip.h"
+	"memtrace.h"
+
+1557440520 source:c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\car.cpp
+	<iostream>
+	"Car.h"
+	"memtrace.h"
+
+1557440111 c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<algorithm>
+
+1557440111 source:c:\users\mate_wolf\desktop\lab\nhf_vegleges\nhf\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
