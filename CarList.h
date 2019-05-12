@@ -17,11 +17,13 @@ public:
 	void ListService();
 	void ListFuel();
 	void ListDistrict();
+	void ModifyDistrict();
 	~CarList()
 	{
 	    for (int i=0;i<carNum;i++)
             delete carList[i];
 	}
+	Car* operator[](int idx);
 };
 
 #endif // CARLIST_H_INCLUDED

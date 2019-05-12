@@ -18,9 +18,8 @@ public:
 	int GetFullDistance(Car*);
 	int GetFullIncome();
 	int GetFullIncome(Car*);
-	//void ModifyDistrict();
 	void ListTrip();
-	~TripList(){}
+	~TripList();
 };
 
 #endif // TRIPLIST_H_INCLUDED

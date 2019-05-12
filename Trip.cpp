@@ -9,4 +9,5 @@ int Trip::GetIncome()
 std::ostream& operator<<(std::ostream& os, const Trip& t)
 {
     os<<"Car: "<<t.GetCar()->GetId()<<"\tDuration: "<<t.GetDuration()<<"\tDistance: "<<t.GetDistance()<<std::endl;
+    return os;
 }

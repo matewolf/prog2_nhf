@@ -12,3 +12,8 @@ double Electric::CalculateFuel(unsigned int km)
 {
     return (km+0.0)/100.0*consumption;
 }
+
+double Electric::PercentFuel()
+{
+    return this->GetFuel()/maxfuel*100;
+}

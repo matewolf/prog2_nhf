@@ -6,6 +6,13 @@ void TripList::AddTrip(Trip* trip)
     if (tripNum>=200)
         throw "Nem vihetõ fel több utazás.";
     tripList[tripNum++]=trip;
+
+    trip->GetCar()->SetDistrict(trip->GetDestDist());
+    trip->GetCar()->SetKilometer(trip->GetCar()->GetKilometer()+trip->GetDistance());
+    trip->GetCar()->SetFuel(trip->GetCar()->GetFuel()-trip->GetCar()->CalculateFuel(trip->GetDistance()));
+
+    if(trip->GetCar()->GetFuel()<0)
+        trip->GetCar()->SetFuel(trip->GetCar()->GetMaxFuel());
 }
 
 int TripList::GetFullDistance()
@@ -45,5 +52,12 @@ int TripList::GetFullIncome(Car* c)
 void TripList::ListTrip()
 {
     for (int i=0;i<tripNum;i++)
-        std::cout<<tripList[i];
+        std::cout<<*(tripList[i]);
 }
+
+TripList::~TripList()
+{
+    for (int i=0;i<tripNum;i++)
+            delete tripList[i];
+}
+

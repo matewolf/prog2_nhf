@@ -10,5 +10,10 @@ bool Combustion::IsService()
 
 double Combustion::CalculateFuel(unsigned int km)
 {
-    return (this->GetKilometer())+0.0/100.0*consumption;
+    return (km+0.0)/100.0*consumption;
+}
+
+double Combustion::PercentFuel()
+{
+    return this->GetFuel()/maxfuel*100;
 }
