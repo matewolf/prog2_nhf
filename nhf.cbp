@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-DMEMTRACE" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -32,6 +33,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Car.cpp" />
 		<Unit filename="Car.h" />
 		<Unit filename="CarList.cpp" />
 		<Unit filename="CarList.h" />
@@ -44,6 +46,8 @@
 		<Unit filename="TripList.cpp" />
 		<Unit filename="TripList.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="memtrace.cpp" />
+		<Unit filename="memtrace.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
